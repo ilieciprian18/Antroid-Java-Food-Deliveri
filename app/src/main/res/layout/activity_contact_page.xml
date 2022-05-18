@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactPage"
+    android:orientation="vertical"
+    android:background="#DC8012">
+
+
+    <TextView
+        android:id="@+id/contactText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Contact"
+        android:textColor="@color/white"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here you can find our contact information.Please dont hesitate to contact us about any
+question or problem that you might encounter using our app.Thank you for reaching to us!"
+        android:textColor="@color/white"
+        android:padding="20dp"
+        android:layout_below="@id/contactText"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:id="@+id/phone1"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textInfo"
+        android:text="601-785-7782 "
+        android:drawableLeft="@drawable/ic_baseline_phone_24"
+        android:drawablePadding="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/phone2"
+        android:padding="20dp"
+        android:layout_marginTop="-20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone1"
+        android:text="415-742-9558"
+        android:drawableLeft="@drawable/ic_baseline_phone_24"
+        android:drawablePadding="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/phone3"
+        android:padding="20dp"
+        android:layout_marginTop="-20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone2"
+        android:text="608-235-3693"
+        android:drawableLeft="@drawable/ic_baseline_phone_24"
+        android:drawablePadding="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone3"
+        android:layout_marginTop="-20sp"
+        android:drawableLeft="@drawable/ic_baseline_attach_email_24"
+        android:drawablePadding="10dp"
+        android:padding="20dp"
+        android:text="support@foodapp.com"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/adress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginTop="-20sp"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:drawablePadding="10dp"
+        android:padding="20dp"
+        android:text="Piata Universitatii, nr 9, sector 1, Bucuresti"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/googleMapLocation"
+        android:layout_width="500dp"
+        android:layout_height="800dp"
+        android:layout_below="@id/adress"
+        android:layout_marginTop="-80dp"
+        android:padding="20dp"
+        android:src="@drawable/screenshot_7" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/black"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

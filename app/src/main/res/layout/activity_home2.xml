@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DC8012"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageMcDonalds"
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="25dp"
+        android:onClick="imageClickMcDonalds"
+        android:src="@drawable/mcdonalds" />
+
+    <TextView
+        android:id="@+id/textMcDonalds"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="35sp"
+        android:layout_toRightOf="@id/imageMcDonalds"
+        android:onClick="imageClickMcDonalds"
+        android:text="McDonald's"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="82dp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/imageKFC"
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:onClick="imageClickKFC"
+        android:layout_below="@id/imageMcDonalds"
+        android:src="@drawable/kfc"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="209dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/textKFC"
+        android:layout_width="125dp"
+        android:layout_height="51dp"
+        android:onClick="imageClickKFC"
+        android:text="KFC"
+        android:layout_toRightOf="@id/imageKFC"
+        android:layout_below="@id/textMcDonalds"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="209dp"
+        android:layout_marginTop="35sp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/imageLaBunica"
+        android:layout_width="128dp"
+        android:layout_height="75dp"
+        android:onClick="imageClickLaBunica"
+
+        android:layout_below="@id/imageKFC"
+        android:src="@drawable/restaurant"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="336dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/textLaBunica"
+        android:layout_width="159dp"
+        android:layout_height="51dp"
+        android:onClick="imageClickLaBunica"
+        android:text="LaBunica"
+        android:layout_toRightOf="@id/imageLaBunica"
+        android:layout_below="@id/textKFC"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="349dp"
+        android:layout_marginTop="50sp"
+        android:textColor="@color/white"/>
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtubePlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_centerVertical="true"
+        android:layout_above="@id/bottom_navigation"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/black"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        tools:layout_editor_absoluteY="675dp" />
+
+
+
+</RelativeLayout>
