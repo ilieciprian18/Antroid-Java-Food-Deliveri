@@ -17,4 +17,6 @@ User-ul poate de asemenea sa verifice profilul, sa isi schimbe poza de profil/da
 
 ![image](https://user-images.githubusercontent.com/61537857/220596069-6f40d1f3-c732-49da-9dc9-357489f78b24.png)
 
+![image](https://user-images.githubusercontent.com/61537857/220596168-31eaee7d-ce56-46c3-93f9-09bd69cf311c.png)
+
 
