@@ -11,3 +11,10 @@ User-ul poate de asemenea sa verifice profilul, sa isi schimbe poza de profil/da
 
 ![image](https://user-images.githubusercontent.com/61537857/220594018-bb42fd80-439f-4545-bcdf-b99955f3f9ca.png)
 
+![image](https://user-images.githubusercontent.com/61537857/220595891-9de9dc02-c5b2-4660-898a-6feee403ad2f.png)
+
+![image](https://user-images.githubusercontent.com/61537857/220595937-0cccc23c-7862-4b45-81bc-80489f250cd1.png)
+
+![image](https://user-images.githubusercontent.com/61537857/220596069-6f40d1f3-c732-49da-9dc9-357489f78b24.png)
+
+
