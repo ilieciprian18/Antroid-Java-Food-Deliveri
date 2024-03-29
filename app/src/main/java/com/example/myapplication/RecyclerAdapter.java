@@ -97,9 +97,14 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
             foodList.addAll((Collection<? extends String>) filterResults.values);
             notifyDataSetChanged();
         }
+
     };
 
-
+    public void filterList(ArrayList<String> filteredList){
+        //foodList.clear();
+        foodList = filteredList;
+        notifyDataSetChanged();
+    }
 
     class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
