@@ -1,5 +1,4 @@
 # Antroid-Java-Food-Delivery
-Technologies: Java/JavaFX  
 Proiect Pentru Android, an III facultate FMI info.  
 Proiectul este legat la Firebase unde avem o baza de date.  
 De asemenea se pot trimite mass notificari userilor.  
